@@ -8,8 +8,9 @@ import (
 	"runtime"
 	"strings"
 
-	"github.com/net-byte/vtun/common/config"
-	"github.com/net-byte/vtun/common/netutil"
+	"./common/config"
+	"./common/netutil"
+	
 	"github.com/songgao/water"
 )
 
