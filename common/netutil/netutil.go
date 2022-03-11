@@ -9,7 +9,8 @@ import (
 	"strings"
 
 	"github.com/gobwas/ws"
-	"github.com/net-byte/vtun/common/config"
+	
+	"./common/config"
 	"github.com/songgao/water/waterutil"
 )
 
