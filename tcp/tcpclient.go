@@ -6,10 +6,11 @@ import (
 	"net"
 	"time"
 
-	"github.com/net-byte/vtun/common/cipher"
-	"github.com/net-byte/vtun/common/config"
-	"github.com/net-byte/vtun/common/netutil"
-	"github.com/net-byte/vtun/tun"
+	"./common/cipher"
+	"./common/config"
+	"./common/netutil"
+	"./tun"
+	
 	"github.com/patrickmn/go-cache"
 	"github.com/songgao/water"
 	"github.com/songgao/water/waterutil"
