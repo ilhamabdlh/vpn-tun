@@ -7,7 +7,7 @@ after telnet, I try to build a VPN network with same specs as Telent. i.e. havin
 i use the library "github.com/songgao/water" for build tunnel.
 
 ## Topology
-![topology](https://user-images.githubusercontent.com/72017753/157828343-1eaebae6-b412-4746-922d-e9856a864058.png)
+![topology](https://user-images.githubusercontent.com/72017753/157837323-f2e74636-de9f-42dd-be21-fd2a953df9fa.png)
 
 Im trying to build a network with VPN Tunnel, let's look the topology, there is a server is the control for networks that will communicate. In topology, I set PC B as a server to control the connection between clients. Then, and I set PC C to be Client1, I liken PC C to Atop device. and I set PC A to be Client2, as a User who want to access the device.
 
