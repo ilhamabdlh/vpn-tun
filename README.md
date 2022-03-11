@@ -17,10 +17,10 @@ Im trying to build a network with VPN Tunnel, let's look the topology, there is 
 ```sh
 go run main.go -s -l=:3001 -c=192.168.254.169/24 -k=123456
 ```
-"-s" flag for server,
-"-l" http port
-"-c" vpn ip and port
-"-k" key (must be the same on server and client)
+- "-s" flag for server,
+- "-l" http port
+- "-c" vpn ip and port
+- "-k" key (must be the same on server and client)
 
  ![Server](https://user-images.githubusercontent.com/72017753/157834000-a2f82501-a4a9-4c2b-bc47-2c019322a783.PNG)
  
