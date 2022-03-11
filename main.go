@@ -5,10 +5,8 @@ import (
 	"log"
 	"net/http"
 
-	"github.com/net-byte/vtun/common/config"
-	"github.com/net-byte/vtun/tcp"
-	"github.com/net-byte/vtun/udp"
-	"github.com/net-byte/vtun/ws"
+	"./common/config"
+	"./tcp"
 )
 
 func main() {
