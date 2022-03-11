@@ -4,7 +4,7 @@ import (
 	"encoding/json"
 	"log"
 
-	"github.com/net-byte/vtun/common/cipher"
+	"./common/cipher"
 )
 
 type Config struct {
